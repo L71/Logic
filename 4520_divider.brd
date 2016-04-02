@@ -126,10 +126,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="99.365" y2="0" width="0" layer="20"/>
-<wire x1="99.365" y1="0" x2="99.365" y2="30.47" width="0" layer="20"/>
-<wire x1="99.365" y1="30.47" x2="0" y2="30.47" width="0" layer="20"/>
-<wire x1="0" y1="30.47" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0.635" x2="99.365" y2="0.635" width="0" layer="20"/>
+<wire x1="99.365" y1="0.635" x2="99.365" y2="29.835" width="0" layer="20"/>
+<wire x1="99.365" y1="29.835" x2="0" y2="29.835" width="0" layer="20"/>
+<wire x1="0" y1="29.835" x2="0" y2="0.635" width="0" layer="20"/>
 <wire x1="0.635" y1="0" x2="1.27" y2="0" width="0.254" layer="21"/>
 <wire x1="0.635" y1="15.24" x2="1.27" y2="15.24" width="0.254" layer="21"/>
 <wire x1="0.635" y1="30.48" x2="1.27" y2="30.48" width="0.254" layer="21"/>
@@ -1870,8 +1870,14 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="85.725" y="13.208" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="90.678" y="15.113" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="C4" library="rcl" package="C1206K" value="10u" x="97.79" y="12.7" rot="MR90"/>
-<element name="C5" library="rcl" package="C1206K" value="10u" x="90.805" y="12.7" rot="MR90"/>
+<element name="C4" library="rcl" package="C1206K" value="10u" x="97.79" y="12.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="96.35" y="14.91" size="1.016" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="95.69" y="11.1" size="1.016" layer="28" rot="MR90"/>
+</element>
+<element name="C5" library="rcl" package="C1206K" value="10u" x="90.805" y="12.7" smashed="yes" rot="MR90">
+<attribute name="NAME" x="89.365" y="14.91" size="1.016" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="88.705" y="11.1" size="1.016" layer="28" rot="MR90"/>
+</element>
 </elements>
 <signals>
 <signal name="N$1">
@@ -1917,10 +1923,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="R18" pad="1"/>
 <contactref element="R17" pad="1"/>
 <polygon width="0.254" layer="16" isolate="0.4064">
-<vertex x="0.635" y="29.845"/>
-<vertex x="99.06" y="29.845"/>
-<vertex x="99.06" y="0.635"/>
-<vertex x="0.635" y="0.635"/>
+<vertex x="0.635" y="29.21"/>
+<vertex x="99.06" y="29.21"/>
+<vertex x="99.06" y="1.27"/>
+<vertex x="0.635" y="1.27"/>
 </polygon>
 <contactref element="IC2" pad="8"/>
 <contactref element="IC2" pad="9"/>
@@ -1931,10 +1937,10 @@ Please make sure your boards conform to these design rules.</description>
 <contactref element="C4" pad="2"/>
 <contactref element="C5" pad="2"/>
 <polygon width="0.254" layer="1" isolate="0.254">
-<vertex x="0.635" y="29.845"/>
-<vertex x="99.06" y="29.845"/>
-<vertex x="99.06" y="0.635"/>
-<vertex x="0.635" y="0.635"/>
+<vertex x="0.635" y="29.21"/>
+<vertex x="99.06" y="29.21"/>
+<vertex x="99.06" y="1.27"/>
+<vertex x="0.635" y="1.27"/>
 </polygon>
 <via x="34.29" y="15.875" extent="1-16" drill="0.6" shape="square"/>
 <via x="36.195" y="10.16" extent="1-16" drill="0.6" shape="square"/>
