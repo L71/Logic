@@ -5,4 +5,6 @@ Logic signal processing Eurorack modules
 
 * 234 - Sync clock divider, one pulse out for every 2,3 or 4 in. 
 
+* Trigger - small module with 2x gate rising edge detectors, 2x inverters with button. Additional ORed output for the two edge detector outputs.
+
 Panels and PCBs licensed cc-by-sa. 
